@@ -1,0 +1,25 @@
+@import '/assets/styles/variables.scss';
+
+.appBar {
+    background-color: transparent !important;
+    position: relative !important;
+    background: linear-gradient(90deg, $mainBlack 0%, $mainPurple 100%) !important;
+    .v-toolbar__content {
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        background: linear-gradient(90deg, $mainBlack 0%, $mainOrange 100%) !important;
+        border-bottom: 1px solid $mainGrey;
+    }
+    .v-toolbar-title__placeholder {
+        background-image: linear-gradient(90deg, $mainPurple 0%, $mainBlack 100%);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        font-size: 33px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+}

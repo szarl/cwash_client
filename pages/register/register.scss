@@ -1,0 +1,26 @@
+@import '/assets/styles/variables.scss';
+
+.register {
+    padding-top: 10vh;
+    &_container {
+        min-width: 500px;
+        margin: auto;
+        .v-selection-control__input input {
+            opacity: 1;
+            left: 7px;
+            width: 60%;
+        }
+
+        .title {
+            font-size: 16px;
+            &.resetPasswordTitle {
+                color: $mainOrange;
+            }
+        }
+
+        .resetPassword {
+            padding: 12px 20px 0px 20px;
+            font-size: 14px;
+        }
+    }
+}

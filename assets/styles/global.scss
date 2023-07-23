@@ -1,0 +1,31 @@
+
+.registerForm {
+    padding: 20px;
+}
+
+.transform180 {
+    transform: rotate(0.5turn);
+    transition: transform 1s;
+}
+
+.yScrollbar {
+    &::-webkit-scrollbar {
+        height: 8px;
+        z-index: 1;
+        border-radius: 12px;
+    }
+    &::-webkit-scrollbar-thumb {
+        border: 2px solid transparent;
+        border-bottom: none;
+        border-radius: 6px;
+        background-color: grey;
+        background-clip: content-box;
+        &:hover {
+            background-color: #dbd6c8;
+        }
+    }
+    &::-webkit-scrollbar-track {
+        background-color: rgb(158, 155, 155);
+        border-radius: 12px;
+    }
+}

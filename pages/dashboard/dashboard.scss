@@ -1,0 +1,29 @@
+
+.dashboard {
+    justify-content: space-between;
+    height: 100vh;
+    flex-wrap: wrap;
+    &_map {
+        width: 48%;
+        .map {
+            width: 100%;
+            height: calc(100vh - 128px);
+        }
+    }
+
+    &_cleanings {
+        width: 48%;
+    }
+
+    &_functionalPanel {
+        padding: 12px;
+        .newWashingOrder{
+            padding-top: 12px;
+            &_button {
+                display: flex;
+                margin-left: auto;
+                margin-right: 24px;
+            }
+        }
+    }
+}

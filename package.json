@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint:js": "eslint --ext \".ts,.vue\" --ignore-path .gitignore .",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm lint:js && npm lint:prettier",
+    "lintfix": "prettier --write --list-different . && npm lint:js --fix"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "^8.0.0-beta.12",
+    "@types/google.maps": "^3.53.4",
+    "@types/node": "^18",
+    "eslint": "^8.42.0",
+    "nuxt": "^3.5.2",
+    "nuxt-lodash": "^2.4.1"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "@mdi/font": "^7.2.96",
+    "axios": "^1.4.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "sass": "^1.63.3",
+    "vue-facing-decorator": "^2.1.20",
+    "vuetify": "^3.3.3",
+    "vuex": "^4.1.0",
+    "vuex-module-decorators": "^2.0.0",
+    "vuex-persist": "^3.1.3"
+  }
+}
